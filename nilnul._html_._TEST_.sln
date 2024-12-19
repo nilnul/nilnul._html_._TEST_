@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nilnul._html_._DLL_", "..\_DLL_(Git\nilnul._html_._DLL_.csproj", "{CF4400CC-36C3-41B5-BAC7-5A5570B94B33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nilnul._html_._TEST_", "nilnul._html_._TEST_.csproj", "{B40898D0-73FB-41C1-AB2B-327645FE1FD9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF4400CC-36C3-41B5-BAC7-5A5570B94B33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF4400CC-36C3-41B5-BAC7-5A5570B94B33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF4400CC-36C3-41B5-BAC7-5A5570B94B33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF4400CC-36C3-41B5-BAC7-5A5570B94B33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B40898D0-73FB-41C1-AB2B-327645FE1FD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B40898D0-73FB-41C1-AB2B-327645FE1FD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B40898D0-73FB-41C1-AB2B-327645FE1FD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B40898D0-73FB-41C1-AB2B-327645FE1FD9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9094544-59B2-45BB-BE74-687C1811DAF6}
+	EndGlobalSection
+EndGlobal
