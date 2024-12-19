@@ -30,10 +30,8 @@ w3.org/TR/REC-xml/#NT-NameStartChar
 
 ;
 
-it's hard to pin down the issue;
-		otherwise it's hard to pindown the issue;
 
-Solution?
+3. Solution?
 Should we in documentation explicitly allow such chars or should we throw exception?
 
 		 */
@@ -48,12 +46,10 @@ Should we in documentation explicitly allow such chars or should we throw except
 			var txt =
 				"r<br><constituent><br>2<br>    <br>    <summary><br>  <br>    </summary><br></constituent\u00a0><br><constituent><br>    c20q7j0<br>    <summary><br>f<br></summary><br></constituent>";
 
-			txt =
-							"<c></c\u00a0><br><c></c>";
+			txt ="<c></c\u00a0><br><c></c>";
 
-			txt =
-							"<c></c\u00a0><b><c></c>";
-			txt =						"<c></c\u00a0><c></c>";
+			txt ="<c></c\u00a0><b><c></c>";
+			txt ="<c></c\u00a0><c></c>";
 			// txt = "<a></a\u00a0><a></a>";
 
 			HtmlAgilityPack.HtmlDocument doc = new HtmlAgilityPack.HtmlDocument();
